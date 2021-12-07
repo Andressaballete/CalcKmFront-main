@@ -4,13 +4,13 @@
   <h2>Login</h2>
 
   <p>
-    <label for="username">Usuário</label>
-    <input type="text" id="username" required autofocus v-model="nome">
+    <label for="username"></label>
+    <input type="text" id="username" required autofocus v-model="nome" placeholder="Usuário">
   </p>
 
   <p>
-    <label for="inputPassword">Senha</label>
-    <input type="password" id="inputPassword" required v-model="senha">
+    <label for="inputPassword"></label>
+    <input type="password" id="inputPassword" required v-model="senha" placeholder="Senha">
   </p>
   <button type="submit">Ok</button>
   </form>
